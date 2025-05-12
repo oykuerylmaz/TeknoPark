@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Teknopark Kıbrıs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--navbar-->
+
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg fixed-top bg-light navbar-light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">Teknopark</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Anasayfa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Hakkımızda
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="hakkimizda.html">Tarihçemiz</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="misyonumuz.html"
+                    >Misyonumuz & Vizyonumuz</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="yonetim.html">İdari Yönetim</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item active" href="haberler.html"
+                    >Haberler</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="firmalar.html">Firmalarımız</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kariyer.html">Kariyer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sss.html">S.S.S.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- news page 1 -->
+    <section id="news-section" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card my-5 border rounded shadow">
+              <img
+                src="img/robot.jpg"
+                class="card-img-top img-fluid"
+                alt="robot"
+              />
+
+              <div class="card-body">
+                <div class="text-muted mb-2">13 Nisan 2023</div>
+                <h3 class="card-title">
+                  Hayata geçirilen yapay zeka destekli, tam otonom zemin bakım
+                  ve inceleme robotunu İnvest İstanbul'da
+                </h3>
+                <p class="card-text">
+                  Teknopark firmalarımızdan Cyprus Robotics (Tezel Çelebi)
+                  önderliği ve Türkiye'den Ara Robotik (Ali Tan Şerbetçi)
+                  firmasının katkıları ile geliştirilen ve hayata geçirilen
+                  yapay zeka destekli, tam otonom zemin bakım ve inceleme
+                  robotunun İnvest İstanbul ve AB EIC değerlendirme uzmanlarına
+                  yapmış olduğumuz video konferans sunumu başarıyla
+                  sonuçlanmıştır.
+                </p>
+
+                <p>
+                  ARI adı verilen robot, biri yayınlanmış (W02022093149), 3'ü
+                  askıda olan 4 farklı patente konu olmuştur. Özgün yazılım ve
+                  donanımı tamamen Teknoparkımızda Tezel Çelebi önderliğindeki,
+                  Doğu Akdeniz Üniversitesi öğrencileri ile birlikte
+                  geliştirilmiştir.
+                </p>
+
+                <a href="haberler.html" class="btn btn-primary my-3"
+                  >Haberlere Dön</a
+                >
+
+                <div class="text-center my-3">
+                  <div class="ratio ratio-16x9">
+                    <video controls>
+                      <source src="img/robotvideo.mp4" type="video/mp4" />
+                      Tarayıcınız video etiketini desteklemiyor.
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news END -->
+
+    <!-- footer -->
+    <footer class="footer container-fluid bg-dark text-light p-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-3 text-md-start">
+          <i class="bi bi-buildings fs-2"></i>
+          <h4 class="fw-bold d-inline-block">TEKNOPARK</h4>
+        </div>
+
+        <div class="col-12 col-md-3 text-md-start">
+          <p class="fw-bold">BİZE ULAŞIN</p>
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-envelope me-2"></i>
+              <a
+                href="mailto:info@kibristeknopark.com"
+                class="text-light text-decoration-none"
+              >
+                info@kibristeknopark.com
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-telephone me-2"></i>
+              <a
+                href="tel:+903926303905"
+                class="text-light text-decoration-none"
+              >
+                Telefon: +90 (392) 630 39 05
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-whatsapp me-2"></i>
+              <a
+                href="https://wa.me/905338636185"
+                class="text-light text-decoration-none"
+              >
+                WhatsApp: +90 (533) 863 61 85
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-geo-alt me-2"></i>
+              <span class="text-light"
+                >Doğu Akdeniz Üniversitesi Kampüsü, Gazimağusa / KKTC</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3 text-md-start">
+          <p class="fw-bold">ONLINE FORMLAR</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="kariyer.html" class="text-light text-decoration-none"
+                >Teknopark Başvurusu</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light text-decoration-none"
+                >Online Ödeme Formu</a
+              >
+            </li>
+            <li>
+              <a href="kariyer.html" class="text-light text-decoration-none"
+                >Online Başvuru Formu</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3 text-md-start">
+          <p class="fw-bold text-uppercase">TEKNOPARK KIBRIS</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="hakkimizda.html" class="text-light text-decoration-none"
+                >Hakkımızda</a
+              >
+            </li>
+            <li>
+              <a href="sss.html" class="text-light text-decoration-none"
+                >Sıkça Sorulan Sorular</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light text-decoration-none"
+                >Banka Hesap Bilgileri</a
+              >
+            </li>
+            <li>
+              <a
+                href="TGBYasasi-42-2018.pdf"
+                class="text-light text-decoration-none"
+                >Yasa ve Mevzuatlar</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light text-decoration-none">
+                <i class="bi bi-instagram fs-5"></i>
+              </a>
+              <a href="#" class="text-light text-decoration-none ms-2">
+                <i class="bi bi-facebook fs-5"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer END -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

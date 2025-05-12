@@ -1,0 +1,92 @@
+.carousel-inner img {
+  height: 600px; /* İsteğe göre ayarla */
+  object-fit: cover;
+}
+
+
+.staj-form-container {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.staj-form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+form label {
+  font-weight: 600;
+}
+
+.form-check-label {
+  font-weight: normal;
+}
+
+/* Form Seçim Kutuları */
+.form-check-input:checked {
+  background-color: #4682b4;
+  border-color: #4682b4;
+}
+
+button[type="submit"] {
+  background-color: #4682b4;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 30px auto 0;
+}
+
+button[type="submit"]:hover {
+  background-color: #3b6a94;
+}
+
+.custom-note-section {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
+  margin-top: 60px;
+  max-width: 800px;
+}
+
+.custom-note-text {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
+.custom-link {
+  color: #4682b4;
+  text-decoration: underline;
+}
+
+.custom-link:hover {
+  color: #2f4f6f;
+}
+
+/* Footer */
+footer {
+  color: #ccc;
+}
+
+footer .fw-bold {
+  color: #fff;
+}
+
+footer a {
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #87cefa;
+}
